@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shah Engineering - Generators for Sale</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="img folder/logo.jpg" alt="Shah Engineering Logo" class="logo">
+            <h1>Shah Engineering</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="custom-orders.html">Custom Orders</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="toggle-cart" class="btn">Your Cart</button>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h2>Welcome to Shah Engineering</h2>
+            <p>Your one-stop shop for high-quality generators.</p>
+            <a href="products.html" class="btn">Browse Generators</a>
+            <a href="custom-orders.html" class="btn">Order Custom Generator</a>
+        </section>
+
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product">
+                <img src="img folder/generator.jpg" alt="Generator 1">
+                <h3>Generator 20kW</h3>
+                <p>High performance generator for all your needs.</p>
+                <p>Price: $500</p>
+                <button class="btn add-to-cart" data-product="Generator Model 1" data-price="500">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="img folder/generator.jpg" alt="Generator 2">
+                <h3>Generator 30kW</h3>
+                <p>Reliable and efficient generator for any use.</p>
+                <p>Price: $700</p>
+                <button class="btn add-to-cart" data-product="Generator Model 2" data-price="700">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <div class="cart-container hidden">
+        <h3>Shopping Cart</h3>
+        <ul id="cart"></ul>
+        <p id="total" class="total">Total: $0</p>
+        <button id="checkout-btn" class="btn">Checkout</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Shah Engineering. All rights reserved.</p>
+        <p>Proprietor:Dilawar Ali Shah</p>
+        <p>For Any Problem Please Contact Us on : 03344556753</p>
+        <p>Or Email Us on : Dildarshah52@gmail.com</p>
+    </footer>
+</body>
+</html>
